@@ -6,7 +6,10 @@ body {
     background-color: #DDDDDD;
     color: #627254
 }
-
+.ar .arabic-title 
+{
+    color:red;
+}
 /*start navbar*/
 header {
     background-color: #DDDDDD;
