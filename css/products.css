@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #FDFEFE  ;
+}
+
+.awlP {
+
+    color: #5D6D7E ;
+    margin-top: 30px;
+}
+
+.awlH1 {
+    margin-top: 45px;
+    color: #8E44AD;
+
+}
+
+h4{
+    color: #145A32;
+    margin-bottom: 30px;
+}
+
+.container p {
+    color: #717D7E;
+    font-size: 13px;
+}
+
+h5 {
+
+    margin-top: 35px;
+    color: #1E8449  ;
+}

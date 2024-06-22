@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: relative;
+    width: 100%;
+    transition: transform 3s ease;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide img {
+    width: 100%;
+    transition: transform 3s ease;
+}
+
+.slide.enlarged img {
+    transform: scale(1.2);
+}
+
+.caption {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    border-radius: 4px;
+}
