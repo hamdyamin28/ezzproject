@@ -1,35 +1,109 @@
-* {
-    text-align: center;
-}
 
 body {
-    background-color: #FDFEFE  ;
+  direction: rtl;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #627254;
+}
+
+/*start navbar*/
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+  color: #627254
+}
+.nav-link{
+  color: #627254;
+}
+/*end nav bar */
+
+/*start header section*/
+.productsphoto {
+  position: relative;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.productsphoto img {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+.productsphoto p,
+.productsphoto h2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 0;
+}
+
+.productsphoto p {
+  top: 35%;
+  font-size: 16px;
+}
+
+.productsphoto h2 {
+  top: 50%;
+  font-size: 32px;
+  transform: translate(-50%, -50%);
+}
+
+.productsphoto a {
+  text-decoration: none;
+  color: white;
+}
+
+.productsphoto a:hover {
+  color: #627254;
+}
+/*end header section*/
+/*start products section*/
+
+#secprod {
+  text-align: center;
 }
 
 .awlP {
-
-    color: #5D6D7E ;
-    margin-top: 30px;
+  color: #1a4d2e;
+  margin-top: 30px;
+  text-align: center;
 }
 
 .awlH1 {
-    margin-top: 45px;
-    color: #8E44AD;
-
+  margin-top: 45px;
+  color: #1a4d2e;
+  text-align: center;
 }
 
-h4{
-    color: #145A32;
-    margin-bottom: 30px;
+h4 {
+  color: #1a4d2e;
+  margin-bottom: 30px;
 }
 
 .container p {
-    color: #717D7E;
-    font-size: 13px;
+  color: #556b2f;
+  font-size: 13px;
 }
 
 h5 {
+  margin-top: 35px;
+  color: #1a4d2e;
+}
 
-    margin-top: 35px;
-    color: #1E8449  ;
+.shado div {
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+  border-radius: 35px;
+  margin-bottom: 20px;
+}
+
+/*end products section*/
+
+
+h5 {
+  text-align: center;
 }

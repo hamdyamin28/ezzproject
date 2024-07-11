@@ -1,43 +1,152 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EZZ COMPANY</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+  </head>
+  <body>
+    <!-- start navbar-->
+    <nav class="navbar navbar-expand-lg bg-black">
+      <div class="container">
+        <a class="navbar-brand w-50" href="index.html">
+          <img
+            src="images/greenrow.png"
+            class="w-25"
+            alt="لوجو شركه عز للتصدير"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#main"
+          aria-controls="main"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >الرئيسيه</a
+              >
+            </li>
+            <li class="nav-item mx-lg-2">
+              <a class="nav-link" href="products.html">المنتجات</a>
+            </li>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>EZZ COMPANY</title>     
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
-    <body >
-      <!-- start navbar--> 
-    
-      <header>
-        <div class="container">  
-         <nav>
-            <ul class="nav-left ms-5">
-                <li><a href="index.html">الرئيسيه</a></li>
-                <li><a href="about.html">من نحن</a></li>
-            </ul>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/greenrow.png" alt="EZZ COMPANY Logo">
-                </a>
-            </div>
-            <ul class="nav-right">
-                <li><a href="products.html">المنتجات </a></li>
-                <li><a href="contact.html">تواصل معنا</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropbtn">اللغة</a>
-                    <div class="dropdown-content">
-                        <a href="#">العربية</a>
-                        <a href="#">English</a>
-                    </div>
-                </li>
-            </ul>
-         </nav>
+            <li class="nav-item mx-lg-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                عن شركتنا
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">من نحن</a></li>
+                <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-lg-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                اللغه
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">العربيه</a></li>
+                <li><a class="dropdown-item" href="#">English</a></li>
+              </ul>
+            </li>
+          </ul>
         </div>
-      </header> 
-   </body>
+      </div>
+    </nav>
+    <!--end navbar-->
+    <!-- start header section-->
+    <section class="container">
+      <div class="productsphoto">
+        <img src="images/scottwebb.jpg" alt="" />
+        <p>
+          <a href="index.html"> الرئيسيه </a> /
+          <a href="about.html">عن شركتنا </a>
+        </p>
+        <h2>من نحن</h2>
+      </div>
+    </section>
+    <!--end header section-->
+    <section id="contentt">
+      <div class="container">
+        <h2 class="fs-1 text-center mt-5 serv">عن الشركه:</h2>
+        <div class="row justify-content-between">
+          <div class="col-lg-4 mt-lg-1 image-container">
+            <img
+              src="images/greenrow.png"
+              class="w-100 h-100 img-fluid rounded-5"
+              alt="صوره عن تصدير الخضروات والفاكهة الي جميع بلاد العالم "
+            />
+          </div>
+          <div class="col-lg-6 d-flex align-items-center">
+            <div>
+              <h5>
+                نحن في شركة عز نلتزم بتقديم أفضل المنتجات الزراعية الطازجة
+                والمختارة بعناية، لنلبي احتياجات عملائنا حول العالم. نفتخر
+                بتقديم منتجاتنا عالية الجودة والتي تُزرع وتُحصد بأيدي خبرائنا في
+                أفضل الأراضي الزراعية في مصر
+              </h5>
+            </div>
+          </div>
+          <h2 class="fs-1 text-center mt-5 serv">رؤيتنا:</h2>
+          <div class="col-lg-6 d-flex h-50">
+            <div class="pt-lg-5">
+              <h5 class="mt-lg-5">
+                نسعى لأن نكون الخيار الأول في تصدير الخضروات والموالح على مستوى
+                العالم، من خلال تقديم منتجات تتجاوز توقعات عملائنا في الجودة
+                والنكهة
+              </h5>
+            </div>
+          </div>
+          <div class="image-container col-lg-4">
+            <img
+              src="images/export-fruit.jpg"
+              class="w-100 h-100 img-fluid rounded-5"
+              alt=""
+            />
+          </div>
+          <h2 class="text-center mt-lg-5">لماذا نحن:</h2>
+          <h4 class="text-center">
+            منتجاتنا عالية الجودة تزرع في أفضل الأراضي الزراعية في مصر.
+          </h4>
+          <h4 class="text-center">
+            نلتزم بأعلى معايير الجودة والسلامة الغذائية.
+          </h4>
+          <h4 class="text-center">لدينا خبرة طويلة في مجال التصدير الزراعي.</h4>
+          <h4 class="text-center">خدمة عملاء متميزة ودعم مستمر.</h4>
+        </div>
+      </div>
+    </section>
+    <!--end content-->
+    <!--start contant us-->
+    <h1 class="mt-lg-5 text-center">تواصل معنا:</h1>
+
+    <!--end contant us-->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
