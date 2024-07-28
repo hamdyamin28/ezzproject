@@ -6,14 +6,19 @@
     <title>EZZ COMPANY</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
 
     <link rel="stylesheet" href="css/home.css" />
     <link rel="stylesheet" href="css/about.css" />
   </head>
   <body>
     <!-- start navbar-->
-    <nav class="navbar navbar-expand-lg bg-black">
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-custom">
       <div class="container">
         <a class="navbar-brand w-50" href="index.html">
           <img
@@ -56,7 +61,11 @@
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="about.html">من نحن</a></li>
-                <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
+                <li>
+                  <a class="dropdown-item" href="about.html#linkfooter"
+                    >تواصل معنا</a
+                  >
+                </li>
               </ul>
             </li>
             <li class="nav-item mx-lg-2 dropdown">
@@ -80,56 +89,66 @@
     </nav>
     <!--end navbar-->
     <!-- start header section-->
-    <section class="container">
-      <div class="productsphoto">
-        <img src="images/scottwebb.jpg" alt="" />
-        <p>
-          <a href="index.html"> الرئيسيه </a> /
-          <a href="about.html">عن شركتنا </a>
-        </p>
-        <h2>من نحن</h2>
-      </div>
-    </section>
+    <div class="padd">
+      <section>
+        <div class="container-fluid">
+          <div class="hero">
+            <div class="hero-text">
+              <h1>ezz</h1>
+              <p>The best choice for you</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!--end header section-->
     <section id="contentt">
       <div class="container">
-        <h2 class="fs-1 text-center mt-5 serv">عن الشركه:</h2>
-        <div class="row justify-content-between">
-          <div class="col-lg-4 mt-lg-1 image-container">
-            <img
-              src="images/greenrow.png"
-              class="w-100 h-100 img-fluid rounded-5"
-              alt="صوره عن تصدير الخضروات والفاكهة الي جميع بلاد العالم "
-            />
-          </div>
-          <div class="col-lg-6 d-flex align-items-center">
-            <div>
-              <h5>
-                نحن في شركة عز نلتزم بتقديم أفضل المنتجات الزراعية الطازجة
-                والمختارة بعناية، لنلبي احتياجات عملائنا حول العالم. نفتخر
-                بتقديم منتجاتنا عالية الجودة والتي تُزرع وتُحصد بأيدي خبرائنا في
-                أفضل الأراضي الزراعية في مصر
-              </h5>
+        <h2 class="fs-1 text-center mt-3 serv">عن الشركه:</h2>
+        <div>
+          <div class="mediaa row justify-content-between">
+            <div class="col-lg-4 mt-lg-1 image-container">
+              <img
+                src="images/greenrow.png"
+                class="w-100 h-100 img-fluid rounded-5"
+                alt="صوره عن تصدير الخضروات والفاكهة الي جميع بلاد العالم "
+              />
+            </div>
+            <div class="col-lg-6 d-flex align-items-center">
+              <div>
+                <h5>
+                  نحن في شركة عز نلتزم بتقديم أفضل المنتجات الزراعية الطازجة
+                  والمختارة بعناية، لنلبي احتياجات عملائنا حول العالم.
+                </h5>
+                <h5>
+                  نفتخر بتقديم منتجاتنا عالية الجودة والتي تُزرع وتُحصد بأيدي
+                  خبرائنا في أفضل الأراضي الزراعية في مصر.
+                </h5>
+              </div>
             </div>
           </div>
           <h2 class="fs-1 text-center mt-5 serv">رؤيتنا:</h2>
-          <div class="col-lg-6 d-flex h-50">
-            <div class="pt-lg-5">
-              <h5 class="mt-lg-5">
-                نسعى لأن نكون الخيار الأول في تصدير الخضروات والموالح على مستوى
-                العالم، من خلال تقديم منتجات تتجاوز توقعات عملائنا في الجودة
-                والنكهة
-              </h5>
+          <div class="row justify-content-between">
+            <div class="col-lg-6 d-flex h-50">
+              <div class="pt-lg-5">
+                <h5 class="mt-lg-5">
+                  نسعى لأن نكون الخيار الأول في تصدير الخضروات والموالح على
+                  مستوى العالم،
+                </h5>
+                <h5 class="mtt">
+                  من خلال تقديم منتجات تتجاوز توقعات عملائنا في الجودة والنكهة
+                </h5>
+              </div>
+            </div>
+            <div class="image-container col-lg-4">
+              <img
+                src="images/ro2ya2.jpg"
+                class="w-100 h-100 img-fluid rounded-5"
+                alt=""
+              />
             </div>
           </div>
-          <div class="image-container col-lg-4">
-            <img
-              src="images/export-fruit.jpg"
-              class="w-100 h-100 img-fluid rounded-5"
-              alt=""
-            />
-          </div>
-          <h2 class="text-center mt-lg-5">لماذا نحن:</h2>
+          <h2 class="text-center mt-5">لماذا نحن:</h2>
           <h4 class="text-center">
             منتجاتنا عالية الجودة تزرع في أفضل الأراضي الزراعية في مصر.
           </h4>
@@ -143,10 +162,114 @@
     </section>
     <!--end content-->
     <!--start contant us-->
-    <h1 class="mt-lg-5 text-center">تواصل معنا:</h1>
+    <h1 id="linkfooter" class="mt-lg-5 text-center">تواصل معنا:</h1>
+    <div class="container">
+      <div class="row mt-lg-5">
+        <div class="icons col-lg-3 text-center">
+          <a href="#">
+            <i
+              class="fa-sharp fa-solid fa-envelope fa-5x fa-beat-fade"
+              style="
+                --fa-beat-fade-opacity: 0.67;
+                color: red;
+                --fa-beat-fade-scale: 1.075;
+              "
+            ></i>
+          </a>
+          <h2 class="social3"><a href="">Gmail</a></h2>
+        </div>
+        <div class="icons col-lg-3 text-center">
+          <a href="#">
+            <i
+              class="fa-brands fa-facebook fa-5x fa-beat-fade"
+              style="
+                --fa-beat-fade-opacity: 0.67;
+                color: blue;
+                --fa-beat-fade-scale: 1.075;
+              "
+            ></i
+          ></a>
+          <h2 class="social"><a href="">Facebook</a></h2>
+        </div>
+        <div class="icons col-lg-3 text-center">
+          <a href="#">
+            <i
+              class="fa-brands fa-whatsapp fa-5x fa-beat-fade"
+              style="
+                --fa-beat-fade-opacity: 0.67;
+                color: green;
+                --fa-beat-fade-scale: 1.075;
+              "
+            ></i>
+          </a>
+          <h2 class="social1"><a href="">whatsapp</a></h2>
+        </div>
+        <div class="icons col-lg-3 text-center">
+          <a href="#">
+            <i
+              class="fa-brands fa-instagram fa-5x fa-beat-fade"
+              style="
+                --fa-beat-fade-opacity: 0.67;
+                color: red;
+                --fa-beat-fade-scale: 1.075;
+              "
+            ></i>
+          </a>
+          <h2 class="social2"><a href="">instagram</a></h2>
+        </div>
+      </div>
+    </div>
 
     <!--end contant us-->
+    <!--start map sec-->
+     <section id="mapsec">
+      <div class="container mt-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3417.518086476768!2d30.08875532494905!3d31.06751276937723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5e1845dc29f5d%3A0xa907c4971acc4edc!2z2KfZhNiv2YjYp9ix!5e0!3m2!1sar!2seg!4v1722051891754!5m2!1sar!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+     </section>
+    <!--start map sec-->
+    <!-- start footer-->
+    <section class="foter container-flud align-content-center">
+      <footer class="container mt-5">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <img src="images/greenrow.png" class="w-75 mb-3" alt="" />
+            <p>الدوار -سيدي غازي -كفر الدوار-البحيره - مصر</p>
+            <div class="row justify-content-between">
+              <p class="col-lg-5">ezzcomapany@EXAMPLE.com</p>
+              <p class="col-lg-5">012110908890</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h2>دعونا نناقش احتياجاتكم</h2>
+            <p>
+              نحن هنا لخدمتك: تواصل معنا اليوم للحصول على أفضل المنتجات الزراعية
+              والخدمات التي تلبي احتياجاتكم
+            </p>
+            <p>ezzcompany@gmail.com</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h2 class=""><a href="#">روابط سريعه</a></h2>
+            <p><a href="index.html#contentt">خدماتنا</a></p>
+            <p><a href="about.html">عن شركتنا</a></p>
+            <p><a href="products.html">المنتجات</a></p>
+            <p><a href="#linkfooter">تواصل معنا</a></p>
+          </div>
+        </div>
+        <div class="row w-100 justify-content-center">
+          <div class="line"></div>
+        </div>
+        <div class="row justify-content-between mt-3 mb-2 text-center">
+          <p class="col-lg-4">الحقوق محفوظة @ 2024EZZ COMPANY.</p>
+          <p class="col-lg-4">
+            مطور من قبل <a href="#">H&A web development</a>
+          </p>
+        </div>
+      </footer>
+    </section>
+    <!-- end footer-->
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

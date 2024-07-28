@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="css/products.css" />
   </head>
   <body>
-     <!-- start navbar-->
-     <nav class="navbar navbar-expand-lg bg-black">
+    <!-- start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-custom">
       <div class="container">
         <a class="navbar-brand w-50" href="index.html">
           <img
@@ -40,21 +40,23 @@
             </li>
             <li class="nav-item mx-lg-2">
               <a class="nav-link" href="products.html">المنتجات</a>
-              <li class="nav-item mx-lg-2 dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  عن شركتنا
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="about.html">من نحن</a></li>
-                  <li><a class="dropdown-item" href="#">تواصل معنا</a></li>
-                </ul>
-              </li>
+            </li>
+
+            <li class="nav-item mx-lg-2 dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                عن شركتنا
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="about.html">من نحن</a></li>
+                <li><a class="dropdown-item" href="about.html#linkfooter">تواصل معنا</a></li>
+              </ul>
+            </li>
             <li class="nav-item mx-lg-2 dropdown">
               <a
                 class="nav-link dropdown-toggle"
@@ -76,16 +78,20 @@
     </nav>
     <!--end navbar-->
     <!-- start header section-->
-    <section class=" container">
-      <div class="productsphoto">
-        <img src="images/vegetables1.jpg" alt="" />
-        <p>
-          <a href="index.html"> الرئيسيه </a> /
-          <a href="products.html">المنتجات</a>
-        </p>
-        <h2>قائمه المنتجات</h2>
-      </div>
-    </section>
+    <div class="padd">
+      <section>
+        <div class="container-fluid">
+          <div class="hero">
+            <div class="hero-text ">
+              <h1> ezz </h1>
+              <p> The best choice for you
+              </p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <!--end header section-->
     <!--start products section-->
     <p class="awlP">
@@ -298,9 +304,9 @@
     <h5>صور حقيقية لمنتاجتنا</h5>
 
     <section class="mt-5">
-      <div class=" shado container" id="secprod">
+      <div class="shado container" id="secprod">
         <div class="row justify-content-center bg-body">
-          <div class="product col-lg-4 ">
+          <div class="product col-lg-4">
             <img class="mt-5" src="images/product41.gif" />
             <h4 class="mt-3">خرشوف</h4>
             <p>10 kg / 20kg / 25kg / 1/20 lb. / 1/30 lb</p>
@@ -322,43 +328,47 @@
       </div>
     </section>
     <!--end products section-->
-        <!-- start footer-->
-        <section class="foter container-flud align-content-center  ">
-          <footer class="container mt-5">
-            <div class="row">
-              <div class="col-lg-4 text-center">
-                <img src="images/greenrow.png" class="w-75 mb-3" alt="">
-                <p>الدوار -سيدي غازي -كفر الدوار-البحيره - مصر</p> 
-                <div class="row justify-content-between">
-                <p class="col-lg-5">ezzcomapany@EXAMPLE.com</pc>
-                <p class="col-lg-5">012110908890 </p>
-                </div>
-              </div>
-              <div class="col-lg-4 text-center">
-                <h2>دعونا نناقش احتياجاتكم</h2>
-                <p>نحن هنا لخدمتك: تواصل معنا اليوم للحصول على أفضل المنتجات الزراعية والخدمات التي تلبي احتياجاتكم</p>
-                <p>
-                  ezzcompany@gmail.com
-                </p>
-              </div>
-              <div class="col-lg-4 text-center" >
-                 <h2 class=""><a href="#">روابط سريعه</a></h2>
-                <p><a href="#contentt">خدماتنا</a></p>
-                <p><a href="#">عن شركتنا</a></p>
-                <p><a href="#">المنتجات</a></p>
-                <p><a href="#">من نحن</a></p>
-              </div>
-             </div>
-             <div class="row w-100 justify-content-center "> 
-               <div class="line"></div>
-             </div>
-             <div class="row justify-content-between mt-3 mb-2 text-center">
-               <p class="col-lg-4">الحقوق محفوظة @ 2024EZZ COMPANY.</p>
-               <p class="col-lg-4">مطور من قبل <a href="#">H&A web development</a></p>
-             </div>
-          </footer>
-          </section>
-          <!-- end footer-->
+    <!-- start footer-->
+    <section class="foter container-flud align-content-center">
+      <footer class="container mt-5">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+            <img src="images/greenrow.png" class="w-75 mb-3" alt="" />
+            <p>الدوار -سيدي غازي -كفر الدوار-البحيره - مصر</p>
+            <div class="row justify-content-between">
+              <p class="col-lg-5">ezzcomapany@EXAMPLE.com</p>
+              <p class="col-lg-5">012110908890</p>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h2>دعونا نناقش احتياجاتكم</h2>
+            <p>
+              نحن هنا لخدمتك: تواصل معنا اليوم للحصول على أفضل المنتجات الزراعية
+              والخدمات التي تلبي احتياجاتكم
+            </p>
+            <p>ezzcompany@gmail.com</p>
+          </div>
+          <div class="col-lg-4 text-center">
+            <h2 class=""><a href="#">روابط سريعه</a></h2>
+            <p><a href="index.html#contentt">خدماتنا</a></p>
+            <p><a href="about.html">عن شركتنا</a></p>
+            <p><a href="products.html">المنتجات</a></p>
+            <p><a href="about.html#linkfooter">تواصل معنا</a></p>
+          </div>
+        </div>
+        <div class="row w-100 justify-content-center">
+          <div class="line"></div>
+        </div>
+        <div class="row justify-content-between mt-3 mb-2 text-center">
+          <p class="col-lg-4">الحقوق محفوظة @ 2024EZZ COMPANY.</p>
+          <p class="col-lg-4">
+            مطور من قبل <a href="#">H&A web development</a>
+          </p>
+        </div>
+      </footer>
+    </section>
+    <!-- end footer-->
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

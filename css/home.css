@@ -1,9 +1,8 @@
 body {
-  direction: rtl;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: #f1f1f1;
   color: #627254;
   box-sizing: border-box;
 }
@@ -19,35 +18,46 @@ a {
 a:hover {
   color: #1a4d2e;
 }
+
 /*start navbar*/
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #627254;
+  color: #1a4d2e;
 }
 .nav-link {
-  color: #627254;
+  color: #1a4d2e;
 }
 .navbar-expand-lg {
   width: 100%;
   position: fixed;
   z-index: 1;
-  border-radius: 15px;
-  opacity: 1;
+  opacity: 0.9;
 }
-.navbar-nav{
-  --bs-nav-link-hover-color:var(--bs-nav-link-hover-color)
+.navbar-nav {
+  --bs-nav-link-hover-color: var(--bs-nav-link-hover-color);
 }
-.nav-link:hover{
-  color: #1a4d2e;
+.nav-link:hover {
+  color: #627254;
 }
+.navbar-custom{
+  background-color:#0000;
+ }
+ .navbar-transparent {
+  background-color: transparent;
+  transition: background-color 1s ease;
+}
+
+.navbar-scrolled {
+  background-color:white;}
+
 /*end nav bar */
 /*start header*/
 
 .hero {
   position: relative;
   width: 100%;
-  height: 100vh;
-  background-image: url("../images/pexels-adelien-vandeweghe-2192285-18779413.jpg");
+  height: 90vh;
+  background-image: url("../images/productsheader.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 15px;
@@ -59,8 +69,9 @@ a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #dddddd;
+  color: rgba(178, 193, 184, 0.7);
   opacity: 0;
+  text-shadow: 2px 2px 8px #A5C9CA;
 }
 .hero-text p {
   margin: 0;
@@ -69,7 +80,7 @@ a:hover {
 .hero-text h2,
 .hero-text h1 {
   font-size: 50px;
-  color: #dddddd;
+  color: rgba(178, 193, 184, 0.7);
 }
 .hero-text.visible {
   opacity: 1;
@@ -113,12 +124,41 @@ h2 {
 /* start footer */
 .foter {
   color: #000;
-  background-color: #b5c18e;
+  background-color: #d2e3c8;
   margin-top: 20px;
   width: 100%;
   border-radius: 15px;
-  border: 1px solid #1a4d2e;
 }
 
 /* end footer*/
+/*start media query*/
 
+@media only screen and (max-width: 992px) {
+  .reverse {
+    flex-direction: column-reverse !important;
+  }
+  .itemm1 {
+    text-align: center;
+  }
+  .itemm2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .itemm3 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .mttt {
+    margin-top: 20px;
+  }
+  .hero {
+    height: 100vh;
+  }
+  .hh{
+    margin-top: 20px;
+  }
+}
+
+/*end media query *
