@@ -9,7 +9,7 @@ setTimeout(() => {
 //nav bar //
 document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('scroll', function() {
-    if (window.scrollY > 50) { // عند التمرير لأسفل لأكثر من 50 بكسل
+    if (window.scrollY > 2) { // عند التمرير لأسفل لأكثر من 50 بكسل
       document.querySelector('.navbar').classList.add('navbar-scrolled');
     } else {
       document.querySelector('.navbar').classList.remove('navbar-scrolled');
