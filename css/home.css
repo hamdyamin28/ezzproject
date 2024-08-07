@@ -9,7 +9,7 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #000000;
 }
 a:hover {
   color: #1a4d2e;
@@ -53,6 +53,9 @@ a:hover {
      --bs-dropdown-link-active-bg:#f1f1f1;
   }
 
+ nav img{
+  width:25%;
+ }
 /*end nav bar */
 /*start header*/
 
@@ -172,6 +175,9 @@ h2 {
   }
  .container{
   width: 90%;
+ }
+ .navbar-brand img{
+  width: 80%;
  }
 }
 
