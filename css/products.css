@@ -47,17 +47,14 @@
   text-align: center;
 }
 
-h4 {
+.ccs h4 {
   color: #1a4d2e;
   margin-bottom: 30px;
 }
 
-.ccs p {
-  color: #556b2f;
-  font-size: 13px;
-}
 
-h5 {
+
+.ccs h5 {
   margin-top: 35px;
   color: #1a4d2e;
 }
@@ -70,7 +67,10 @@ h5 {
 
 /*end products section*/
 
-h5 {
+.ccs h5 {
+  text-align: center;
+}
+.ccs{
   text-align: center;
 }
 @media only screen and (max-width:992px){
